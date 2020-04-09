@@ -1,0 +1,273 @@
+body{
+    width: 100%;
+    height: 100%;  
+    background: url(../../../Assets/planet.jpg);
+    background-size: cover;
+}
+.spinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.5;
+    background: black;
+}
+.text-right{
+    text-align: right;
+}
+.text-red{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+.width-50{
+    width: 48%;
+}
+.width-100{
+    width: 100%;
+}
+.diamter-water{
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
+.common-card {
+    font-size: 16px;
+    padding: 5px 20px;
+    height: 72px;
+
+}
+.climate-rotation {
+    position: absolute;
+    left: 0;
+    bottom: 50px; 
+}
+.spinner p {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.planet-img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+    margin: auto 0;
+    position: absolute;
+    opacity: 0.3;
+    margin: 10px;
+
+}
+button[data-pointer="block"],button[data-nav="done"] {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.planetContainer header {
+    color: #fff;
+    margin: 20px 0;
+    height: 50px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.npr {
+    padding-right: 0;
+}
+.count {
+    padding-top: 10px;
+}
+.transparent {
+    background: transparent;
+}
+.force-with-u {
+    color: darkgoldenrod;
+}
+.searchBar {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: transparent;
+    color: white; 
+    border-radius: 5px;
+    margin-left: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .searchBar {
+        width: 33%;
+    }
+    .mobile-signout {
+        float: none !important;
+    }
+    h1.title{
+        text-align: center;
+    }
+  }
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 12px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: grey;
+}
+
+.planet-list {
+    height: 510px;
+    overflow: auto;
+    padding-top: 15px;
+}
+.plant-cards{
+   float: left;
+    margin: 10px;
+    padding: 0;
+    line-height: 15px;
+    position: relative;
+    background: #000;;
+    color: #fff;
+    opacity: 0.8;
+    min-width: 300px;
+}
+.plant-cards:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.plant-cards:hover .population {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    margin-left: 30px;
+}
+.text-green {
+    color: green;
+}
+.card-box-body {
+    height: 200px;
+}
+.card-box-name p{
+    margin: 10px;
+}
+.card-box-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.text-white {
+    color: #fff;
+}
+.opacity-body {
+    height: 79%;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    opacity: 0.1;
+    border-radius: 5px;
+}
+h1.title{
+    color: #fff;
+    padding-left: 30px;
+}
+.loadmore-btn {
+    float: right;
+    margin-right: 14px;
+}
+  
+.gradient2 {
+    background-image: linear-gradient(
+    rgba(221, 221, 221, .5),
+    rgba(221, 221, 221, .75)
+);
+    background-color: #FFDC00;
+}
+
+.gradient3 {
+    background-image:
+    linear-gradient(
+    rgba(0, 116, 217, .5),
+    rgba(255, 255, 255, .25),
+    rgba(0, 116, 217, .5)
+),
+    linear-gradient(
+    to right,
+    rgba(0, 116, 217, .5),
+    rgba(255, 255, 255, .25),
+    rgba(0, 116, 217, .5)
+);
+    background-color: #ddd;
+}
+
+.gradient4 {
+    background-image: linear-gradient(
+    rgba(255, 133, 27, .75),
+    rgba(0, 0, 0, .75),
+    rgba(255, 133, 27, .75)
+);
+    background-color: #ddd;
+}
+
+.gradient5 {
+    background-image:
+    linear-gradient(
+    rgba(0, 116, 217, .5),
+    rgba(255, 133, 27, .25),
+    rgba(0, 116, 217, .5)
+), linear-gradient(
+    to right,
+    rgba(0, 116, 217, .5),
+    rgba(255, 133, 27, .25),
+    rgba(0, 116, 217, .5)
+);
+    background-color: #ddd;
+}
+
+.gradient0 {
+    background-image: linear-gradient(
+    rgba(255, 133, 27, .5),
+    rgba(255, 220, 0, .25),
+    rgba(255, 255, 255, .5)
+),linear-gradient(
+    to right,
+    rgba(255, 133, 27, .5),
+    rgba(255, 220, 0, .25),
+    rgba(255, 255, 255, .5)
+);
+    background-color: #ddd;   
+}
+
+.gradient1 {
+    background-image: linear-gradient(
+    rgba(0, 116, 217, .5),
+    rgba(221, 221, 221, .75)
+), linear-gradient(#FFDC00, #FFFFFF) ;
+    background-color: none;
+}
+/*****Gradient-color****/

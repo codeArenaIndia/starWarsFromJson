@@ -1,0 +1,122 @@
+[
+  {
+    "fields": {
+      "name": "C-3PO",
+      "birth_year": "112BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Luke Skywalker",
+      "birth_year": "19BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "R2-D2",
+      "birth_year": "33BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Darth Vader",
+      "birth_year": "41.9BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Leia Organa",
+      "birth_year": "19BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Owen Lars",
+      "birth_year": "52BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Beru Whitesun lars",
+      "birth_year": "47BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "R5-D4",
+      "birth_year": "unknown"
+    }
+  },
+  {
+    "fields": {
+      "name": "Biggs Darklighter",
+      "birth_year": "24BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Obi-Wan Kenobi",
+      "birth_year": "57BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Anakin Skywalker",
+      "birth_year": "41.9BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Wilhuff Tarkin",
+      "birth_year": "64BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Chewbacca",
+      "birth_year": "200BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Han Solo",
+      "birth_year": "29BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Greedo",
+      "birth_year": "44BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Jabba Desilijic Tiure",
+      "birth_year": "600BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Wedge Antilles",
+      "birth_year": "21BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Jek Tono Porkins",
+      "birth_year": "unknown"
+    }
+  },
+  {
+    "fields": {
+      "name": "Yoda",
+      "birth_year": "896BBY"
+    }
+  },
+  {
+    "fields": {
+      "name": "Palpatine",
+      "birth_year": "82BBY"
+    }
+  }
+]
